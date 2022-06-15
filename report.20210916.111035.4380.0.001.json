@@ -1,0 +1,446 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210916.111035.4380.0.001.json",
+    "dumpEventTime": "2021-09-16T11:10:35Z",
+    "dumpEventTimeStamp": "1631769035398",
+    "processId": 4380,
+    "cwd": "D:\\Documents\\Work\\Verny\\OutOfOffice",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\v.zhukova\\AppData\\Roaming\\npm/node_modules/gulp/bin/gulp.js",
+      "serve"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 13439515,
+        "nice": 0,
+        "sys": 10975218,
+        "idle": 360560109,
+        "irq": 4206609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 9407718,
+        "nice": 0,
+        "sys": 3526109,
+        "idle": 372040796,
+        "irq": 167890
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 19421953,
+        "nice": 0,
+        "sys": 6695343,
+        "idle": 358857328,
+        "irq": 97515
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 9677796,
+        "nice": 0,
+        "sys": 3775640,
+        "idle": 371521187,
+        "irq": 53750
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 14359593,
+        "nice": 0,
+        "sys": 5427578,
+        "idle": 365187453,
+        "irq": 95109
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 9527421,
+        "nice": 0,
+        "sys": 3258390,
+        "idle": 372188796,
+        "irq": 62171
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 12787906,
+        "nice": 0,
+        "sys": 4435625,
+        "idle": 367751078,
+        "irq": 87531
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "speed": 2496,
+        "user": 11731171,
+        "nice": 0,
+        "sys": 3431843,
+        "idle": 369811593,
+        "irq": 46921
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:54:ba:e6",
+        "address": "fe80::9d3a:1dc8:cd03:2e5a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 53
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:54:ba:e6",
+        "address": "172.31.144.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:09",
+        "address": "fe80::bddc:9a:1895:4025",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 9
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:09",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "9c:29:76:eb:6f:86",
+        "address": "fe80::54a2:e544:460f:86ca",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "9c:29:76:eb:6f:86",
+        "address": "192.168.0.134",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Lenovo-Ideapad"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff73fbc1729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff73fbc5b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff73fbc4b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff73fcb369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7404b82de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7404a0321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff74036dbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff740378f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff740375ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff74036b353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff740369b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff74038adf5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff7400f6e19",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff7408e404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x000003cb1e8e509c",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2180739072,
+    "totalCommittedMemory": 2180739072,
+    "usedMemory": 2070266584,
+    "availableMemory": 47876936,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 3032304,
+        "available": 13727504
+      },
+      "old_space": {
+        "memorySize": 2056105984,
+        "committedMemory": 2056105984,
+        "capacity": 1977614192,
+        "used": 1977530368,
+        "available": 83824
+      },
+      "code_space": {
+        "memorySize": 1736704,
+        "committedMemory": 1736704,
+        "capacity": 1413760,
+        "used": 1413760,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3149824,
+        "committedMemory": 3149824,
+        "capacity": 2471440,
+        "used": 2471440,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 85307392,
+        "committedMemory": 85307392,
+        "capacity": 85236016,
+        "used": 85236016,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 153.015,
+    "kernelCpuSeconds": 64.015,
+    "cpuConsumptionPercent": 149.676,
+    "maxRss": 3052851200,
+    "pageFaults": {
+      "IORequired": 1115761,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6187,
+      "writes": 12
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\v.zhukova\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LENOVO-IDEAPAD",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GRADLE_HOME": "C:\\Gradle\\gradle-6.7.1",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\v.zhukova",
+    "INIT_CWD": "D:\\Documents\\Work\\Verny\\OutOfOffice",
+    "IntelliJ IDEA": "D:\\Program Files\\IntelliJ IDEA 2020.2.1\\bin;",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jre1.8.0_121",
+    "LOCALAPPDATA": "C:\\Users\\v.zhukova\\AppData\\Local",
+    "LOGONSERVER": "\\\\LENOVO-IDEAPAD",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "D:\\OneDrive\\OneDrive - IT-BI LLP",
+    "OneDriveCommercial": "D:\\OneDrive\\OneDrive - IT-BI LLP",
+    "OS": "Windows_NT",
+    "Path": "C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jre1.8.0_121\\bin;D:\\Program Files\\Git\\cmd;C:\\ZooKeeper\\apache-zookeeper-3.6.2-bin\\bin;C:\\Gradle\\gradle-6.7.1\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\v.zhukova\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\v.zhukova\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\nodejs\\;C:\\Users\\v.zhukova\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\v.zhukova\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\v.zhukova\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Program Files\\IntelliJ IDEA 2020.2.1\\bin;;D:\\Program Files\\WebStorm 2020.2.1\\bin;;D:\\Program Files\\PyCharm 2020.2.1\\bin;;D:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\v.zhukova\\.dotnet\\tools;C:\\Users\\v.zhukova\\AppData\\Local\\Pandoc\\;C:\\Users\\v.zhukova\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "a502",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\v.zhukova\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PT7HOME": "D:\\Program Files\\Cisco Packet Tracer 7.3.1",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm": "D:\\Program Files\\PyCharm 2020.2.1\\bin;",
+    "QT_DEVICE_PIXEL_RATIO": "auto",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\V181F~1.ZHU\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\V181F~1.ZHU\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LENOVO-IDEAPAD",
+    "USERDOMAIN_ROAMINGPROFILE": "LENOVO-IDEAPAD",
+    "USERNAME": "v.zhukova",
+    "USERPROFILE": "C:\\Users\\v.zhukova",
+    "VBOX_MSI_INSTALL_PATH": "D:\\Program Files\\Oracle\\VirtualBox\\",
+    "WebStorm": "D:\\Program Files\\WebStorm 2020.2.1\\bin;",
+    "windir": "C:\\Windows",
+    "ZOOKEEPER_HOME": "C:\\ZooKeeper\\apache-zookeeper-3.6.2-bin"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "\\\\?\\D:\\Documents\\Work\\Verny\\OutOfOffice\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node",
+    "\\\\?\\D:\\Documents\\Work\\Verny\\OutOfOffice\\node_modules\\deasync\\bin\\win32-x64-node-12\\deasync.node",
+    "\\\\?\\D:\\Documents\\Work\\Verny\\OutOfOffice\\node_modules\\keytar\\build\\Release\\keytar.node",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll"
+  ]
+}

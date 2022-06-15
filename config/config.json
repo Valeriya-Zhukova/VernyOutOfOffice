@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "out-of-office-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/outOfOffice/OutOfOfficeWebPart.js",
+          "manifest": "./src/webparts/outOfOffice/OutOfOfficeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OutOfOfficeWebPartStrings": "lib/webparts/outOfOffice/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+	"solution": {
+		"name": "OutOfOffice",
+		"id": "695f006e-253f-4d36-a105-d8675f4be89d",
+		"version": "1.0.0.0",
+		"includeClientSideAssets": true,
+		"skipFeatureDeployment": true,
+		"isDomainIsolated": false,
+		"developer": {
+			"name": "",
+			"websiteUrl": "",
+			"privacyUrl": "",
+			"termsOfUseUrl": "",
+			"mpnId": ""
+		}
+	},
+	"paths": {
+		"zippedPackage": "solution/OutOfOffice.sppkg"
+	}
+}
